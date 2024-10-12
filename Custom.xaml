@@ -1,0 +1,38 @@
+<local:MyCard Title="OFS-公告板" Margin="0,0,0,15" CanSwap="True" IsSwaped="False"><!-- Copyright 2022-2024 Orient Fishing Server -->
+	<StackPanel Margin="25,40,23,15">
+	    <local:MyHint Margin="0,8,0,2" IsWarn="false" Text="欢迎使用OFS整合包！" />
+		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="温馨提示：在服务器内，请您将自己的基地进行圈地以避免他人偷盗物资/恶意破坏&#xA;请勿使用小号进入服务器破坏游戏平衡，被发现将处以封禁~" />
+	</StackPanel>
+</local:MyCard>
+<local:MyCard Title="OFS-快捷启动" Margin="0,0,0,15" CanSwap="False">
+	<StackPanel Margin="25,40,23,15">
+	    <local:MyListItem Margin="-5,2,-5,8" Logo="pack://application:,,,/images/Blocks/GrassPath.png" Title="启动 OFS整合包V3" Info="点击启动游戏" EventType="启动游戏" EventData="OFS-ModPack-Client" Type="Clickable" />	    
+		<local:MyListItem Margin="-5,2,-5,8" Logo="pack://application:,,,/images/Blocks/Grass.png" Title="启动 OFS整合包V3-生电整合包 并进入OFS" Info="点击启动游戏" EventType="启动游戏" EventData="OFS-RS-ModPack-Client|play.ofs-union.eu.org" Type="Clickable" />	    
+		<local:MyListItem Margin="-5,2,-5,8" Logo="pack://application:,,,/images/Blocks/RedstoneLampOn.png" Title="打开 Minecraft Wiki" Info="点击打开" EventType="打开网页" EventData="https://zh.minecraft.wiki/" Type="Clickable" />
+		<local:MyListItem Margin="-5,2,-5,8" Logo="M3.73252 2.67094C3.33229 2.28484 3.33229 1.64373 3.73252 1.25764C4.11291 0.890684 4.71552 0.890684 5.09591 1.25764L7.21723 3.30403C7.27749 3.36218 7.32869 3.4261 7.37081 3.49407H10.5789C10.6211 3.4261 10.6723 3.36218 10.7325 3.30403L12.8538 1.25764C13.2342 0.890684 13.8368 0.890684 14.2172 1.25764C14.6175 1.64373 14.6175 2.28484 14.2172 2.67094L13.364 3.49407H14C16.2091 3.49407 18 5.28493 18 7.49407V12.9996C18 15.2087 16.2091 16.9996 14 16.9996H4C1.79086 16.9996 0 15.2087 0 12.9996V7.49406C0 5.28492 1.79086 3.49407 4 3.49407H4.58579L3.73252 2.67094ZM4 5.42343C2.89543 5.42343 2 6.31886 2 7.42343V13.0702C2 14.1748 2.89543 15.0702 4 15.0702H14C15.1046 15.0702 16 14.1748 16 13.0702V7.42343C16 6.31886 15.1046 5.42343 14 5.42343H4ZM5 9.31747C5 8.76519 5.44772 8.31747 6 8.31747C6.55228 8.31747 7 8.76519 7 9.31747V10.2115C7 10.7638 6.55228 11.2115 6 11.2115C5.44772 11.2115 5 10.7638 5 10.2115V9.31747ZM12 8.31747C11.4477 8.31747 11 8.76519 11 9.31747V10.2115C11 10.7638 11.4477 11.2115 12 11.2115C12.5523 11.2115 13 10.7638 13 10.2115V9.31747C13 8.76519 12.5523 8.31747 12 8.31747Z" Title="打开 Bilibili" Info="点击打开" EventType="打开网页" EventData="https://www.bilibili.com" Type="Clickable" />
+		<local:MyListItem Margin="-5,2,-5,8" Logo="https://docs.gtimg.com/docs-design-resources/document-management/tencent-docs/favicon/application-vnd.tdocs-apps.doc.png" Title="OFS帮助文档" Info="请您认真阅读此帮助文档，点击打开" EventType="打开网页" EventData="https://docs.qq.com/doc/DTkl6THh0a3BIT1Nw" Type="Clickable" />
+		<local:MyListItem Margin="-5,2,-5,8" Logo="http://bkwd.ofs-union.eu.org:40009/Microsoft_Edge_logo.png" Title="打开官网" Info="点击打开服务器官网" EventType="打开网页" EventData="https://news.ofs-union.eu.org" Type="Clickable" />		
+	</StackPanel>
+</local:MyCard>
+<local:MyCard Title="OFS-长期公告" Margin="0,0,0,15" CanSwap="True" IsSwaped="False"><!-- Copyright 2022-2024 Orient Fishing Server -->
+	<StackPanel Margin="25,40,23,15">
+		<local:MyHint Margin="0,8,0,2" IsWarn="false" Text="OFS | 中秋觅礼行-活动说明&#xA;又是一年团圆日，月洒清辉共此时，明月高悬、谜题环绕，在今年的中秋节，Orient Fishing Server为大家准备了一场精彩纷呈的解密活动！奖品被我们巧妙地隐藏在了服务器的各个角落，而发现它们的秘密，就藏在一个个解谜线索中......&#xA;线索一：uzblhu.hwe/Vzvkfx-Wdwyweo-Wrkamj/Wpbzgw/izpvojmw/qhbvdviq/20240907/cspckegsi.xrt&#xA;线索二：4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a&#xA;线索三：OrientFishingServer&#xA;提示：Base64/凯撒密码及其变种/SHA256&#xA;活动奖励：**.**CNY 解密通过者均分（解密完成即可知晓金额）&#xA;奖励兑换时间：2024/09/17 20:00" />	    
+		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="为保证服务器稳定，我们将在每天凌晨 3:00 定时重启网络，因此您可能会因DNS解析不及时而出现“无法连接至服务器”问题，更换阿里DNS即可解决此问题" />
+		<local:MyListItem Margin="-5,2,-5,8" Logo="https://alidns.com/assets/favicon-29bc214a.png" Title="一键直达更换教程" Info="点击打开更换阿里DNS官方教程" EventType="打开网页" EventData="https://alidns.com/knowledge?type=SETTING_DOCS#user_windows" Type="Clickable" />
+	</StackPanel>
+</local:MyCard>
+<local:MyCard Title="整合包高级选项" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+	<StackPanel Margin="25,40,23,15">
+	    <local:MyHint Margin="0,8,0,2" IsWarn="false" Text="恭喜你找到了隐藏的内容！&#xA;CDK: lan-20240822" />
+	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="20" Foreground="#FF0000"
+                    Text="这些内容是给高级玩家排查错误使用的！非必要请勿使用此卡片内功能！" />
+	    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+		    <local:MyButton Margin="5,0,5,0" Width="120" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="刷新公告" EventType="刷新主页" />
+            <local:MyButton Margin="0,0,5,0" Width="120" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                    Text="今日人品" EventType="今日人品" />
+            <local:MyButton Margin="0,0,5,0" Width="120" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Red"
+                    Text="清理垃圾" EventType="清理垃圾" />
+        </StackPanel>
+	</StackPanel>
+</local:MyCard>
