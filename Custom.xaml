@@ -22,8 +22,7 @@
 <local:MyCard Title="整合包高级选项" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
 	    <local:MyHint Margin="0,8,0,2" IsWarn="false" Text="恭喜你找到了隐藏的内容！&#xA;但很可惜，这里什么好东西也没有:(" />
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="20" Foreground="#FF0000"
-                    Text="这些内容是排查错误时使用的，非必要请勿使用此卡片内功能！" />
+	    <local:MyHint Margin="0,8,0,2" Text="这些内容是排查错误时使用的，非必要请勿使用此卡片内功能！" />
 	    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <local:MyIconTextButton Margin="0,4,0,8" Height="35" HorizontalAlignment="Center"
                         ColorType="Highlight" Text="今日人品" EventType="今日人品"
