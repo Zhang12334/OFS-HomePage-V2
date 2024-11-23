@@ -22,15 +22,20 @@
 <local:MyCard Title="整合包高级选项" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
 	    <local:MyHint Margin="0,8,0,2" IsWarn="false" Text="恭喜你找到了隐藏的内容！&#xA;但很可惜，这里什么好东西也没有:(" />
-	    <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="20" Foreground="#FF0000"
-                    Text="这些内容是排查错误时使用的，非必要请勿使用此卡片内功能！" />
-	    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
-		    <local:MyButton Margin="5,0,5,0" Width="120" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                    Text="刷新公告" EventType="刷新主页" />
-            <local:MyButton Margin="0,0,5,0" Width="120" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
-                    Text="今日人品" EventType="今日人品" />
-            <local:MyButton Margin="0,0,5,0" Width="120" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Red"
-                    Text="清理垃圾" EventType="清理垃圾" />
+	    <local:MyHint Margin="0,8,0,2" Text="这些内容是排查错误时使用的，非必要请勿使用此卡片内功能！" />
+	    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <local:MyIconTextButton Margin="0,4,0,8" Height="35" HorizontalAlignment="Center"
+                        ColorType="Highlight" Text="今日人品" EventType="今日人品"
+                        LogoScale="1" Logo="M12 1.25a4.75 4.75 0 1 0 0 9.5a4.75 4.75 0 0 0 0-9.5M8.75 6a3.25 3.25 0 1 1 6.5 0a3.25 3.25 0 0 1-6.5 0M12 12.25c-2.313 0-4.445.526-6.024 1.414C4.42 14.54 3.25 15.866 3.25 17.5v.102c-.001 1.162-.002 2.62 1.277 3.662c.629.512 1.51.877 2.7 1.117c1.192.242 2.747.369 4.773.369s3.58-.127 4.774-.369c1.19-.24 2.07-.605 2.7-1.117c1.279-1.042 1.277-2.5 1.276-3.662V17.5c0-1.634-1.17-2.96-2.725-3.836c-1.58-.888-3.711-1.414-6.025-1.414M4.75 17.5c0-.851.622-1.775 1.961-2.528c1.316-.74 3.184-1.222 5.29-1.222c2.104 0 3.972.482 5.288 1.222c1.34.753 1.961 1.677 1.961 2.528c0 1.308-.04 2.044-.724 2.6c-.37.302-.99.597-2.05.811c-1.057.214-2.502.339-4.476.339s-3.42-.125-4.476-.339c-1.06-.214-1.68-.509-2.05-.81c-.684-.557-.724-1.293-.724-2.601" />
+            <local:MyIconTextButton Margin="0,4,0,8" Height="35" HorizontalAlignment="Center"
+                        ColorType="Highlight" Text="内存优化" EventType="内存优化"
+                        LogoScale="1" Logo="M232 58H24a14 14 0 0 0-14 14v128a6 6 0 0 0 12 0v-18h20v18a6 6 0 0 0 12 0v-18h20v18a6 6 0 0 0 12 0v-18h20v18a6 6 0 0 0 12 0v-18h20v18a6 6 0 0 0 12 0v-18h20v18a6 6 0 0 0 12 0v-18h20v18a6 6 0 0 0 12 0v-18h20v18a6 6 0 0 0 12 0V72a14 14 0 0 0-14-14M22 72a2 2 0 0 1 2-2h208a2 2 0 0 1 2 2v98H22Zm90 78a6 6 0 0 0 6-6V96a6 6 0 0 0-6-6H48a6 6 0 0 0-6 6v48a6 6 0 0 0 6 6Zm-58-48h52v36H54Zm90 48h64a6 6 0 0 0 6-6V96a6 6 0 0 0-6-6h-64a6 6 0 0 0-6 6v48a6 6 0 0 0 6 6m6-48h52v36h-52Z" />
+            <local:MyIconTextButton Margin="0,4,0,8" Height="35" HorizontalAlignment="Center"
+                        ColorType="Highlight" Text="清理垃圾" EventType="清理垃圾"
+                        LogoScale="1" Logo="M12 2.75a2.25 2.25 0 0 0-2.122 1.5a.75.75 0 0 1-1.414-.5a3.751 3.751 0 0 1 7.073 0a.75.75 0 0 1-1.415.5A2.25 2.25 0 0 0 12 2.75M2.75 6a.75.75 0 0 1 .75-.75h17a.75.75 0 0 1 0 1.5h-17A.75.75 0 0 1 2.75 6m3.165 2.45a.75.75 0 1 0-1.497.1l.464 6.952c.085 1.282.154 2.318.316 3.132c.169.845.455 1.551 1.047 2.104s1.315.793 2.17.904c.822.108 1.86.108 3.146.108h.879c1.285 0 2.324 0 3.146-.108c.854-.111 1.578-.35 2.17-.904c.591-.553.877-1.26 1.046-2.104c.162-.814.23-1.85.316-3.132l.464-6.952a.75.75 0 0 0-1.497-.1l-.46 6.9c-.09 1.347-.154 2.285-.294 2.99c-.137.685-.327 1.047-.6 1.303c-.274.256-.648.422-1.34.512c-.713.093-1.653.095-3.004.095h-.774c-1.35 0-2.29-.002-3.004-.095c-.692-.09-1.066-.256-1.34-.512c-.273-.256-.463-.618-.6-1.303c-.14-.705-.204-1.643-.294-2.99z M9.425 10.254a.75.75 0 0 1 .821.671l.5 5a.75.75 0 0 1-1.492.15l-.5-5a.75.75 0 0 1 .671-.821m5.821.821a.75.75 0 0 0-1.492-.15l-.5 5a.75.75 0 0 0 1.492.15z" />       
+            <local:MyIconTextButton Margin="0,4,0,8" Height="35" HorizontalAlignment="Center"
+                        ColorType="Highlight" Text="刷新主页" EventType="刷新主页"
+                        LogoScale="1" Logo="M12.077 19q-2.931 0-4.966-2.033q-2.034-2.034-2.034-4.964t2.034-4.966T12.077 5q1.783 0 3.339.847q1.555.847 2.507 2.365V5h1v5.23h-5.23v-1h3.7q-.782-1.495-2.198-2.363T12.077 6q-2.5 0-4.25 1.75T6.077 12t1.75 4.25t4.25 1.75q1.925 0 3.475-1.1t2.175-2.9h1.062q-.662 2.246-2.514 3.623T12.077 19" />                                         
         </StackPanel>
 	</StackPanel>
 </local:MyCard>
