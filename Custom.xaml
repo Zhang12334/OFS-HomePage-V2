@@ -1,7 +1,9 @@
 <local:MyCard Title="OFS-公告板" Margin="0,0,0,15" CanSwap="True" IsSwaped="False"><!-- Copyright 2022-2024 Orient Fishing Server -->
 	<StackPanel Margin="25,40,23,15">
-	    <local:MyHint Margin="0,8,0,2" IsWarn="false" Text="欢迎使用OFS整合包！" />
+	    <local:MyHint Margin="0,8,0,2" IsWarn="false" Text="OFS-公告板" />
 		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="温馨提示：在服务器内，请您将自己的基地进行圈地以避免他人偷盗物资/恶意破坏&#xA;请勿使用小号进入服务器破坏游戏平衡，被发现将处以封禁~" />
+                <local:MyHint Margin="0,8,0,2" IsWarn="False" Text="各位玩家，OFS外服预计将于2025/01/21 01:00对全服进行停机维护&#xA;在此期间您将会遇到无法进入服务器的问题，请您耐心等待维护结束！" />
+                <local:MyHint Margin="0,8,0,2" IsWarn="False" Text="预计维护时长：30min-60min&#xA;维护类型：优化/升级&#xA;维护原因：计划内维护&#xA;当前状态：未结束&#xA;补偿CDK：无" />
 	</StackPanel>
 </local:MyCard>
 <local:MyCard Title="OFS-快捷启动" Margin="0,0,0,15" CanSwap="False">
