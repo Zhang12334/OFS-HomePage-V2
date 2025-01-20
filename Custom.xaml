@@ -5,6 +5,7 @@
                 <local:MyHint Margin="0,8,0,2" IsWarn="True" Text="各位玩家，OFS外服预计将于2025/01/21 01:00对全服进行停机维护&#xA;在此期间您将会遇到无法进入服务器的问题，请您耐心等待维护结束！" />
                 <local:MyHint Margin="0,8,0,2" IsWarn="True" Text="预计维护时长：30min-60min&#xA;维护类型：优化/升级&#xA;维护原因：计划内维护&#xA;当前状态：未结束&#xA;补偿CDK：无" />
                 <local:MyHint Margin="0,8,0,2" IsWarn="False" Text="快报快报，这里可以投稿啦！&#xA;上到停机维护奖励CDK大小公告，下到服内趣事工程完工皆可展示&#xA;欢迎各位踊跃投稿！（QQ私信服主即可）" />
+                // <local:MyHint Margin="0,8,0,2" IsWarn="False" Text="&#xA;这里是可以投稿的哦！&#xA;QQ私信服主即可投稿~" />
 	</StackPanel>
 </local:MyCard>
 <local:MyCard Title="OFS-快捷启动" Margin="0,0,0,15" CanSwap="False">
