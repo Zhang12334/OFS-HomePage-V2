@@ -2,8 +2,9 @@
 	<StackPanel Margin="25,40,23,15">
 	    <local:MyHint Margin="0,8,0,2" IsWarn="false" Text="OFS-公告板" />
 		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="温馨提示：在服务器内，请您将自己的基地进行圈地以避免他人偷盗物资/恶意破坏&#xA;请勿使用小号进入服务器破坏游戏平衡，被发现将处以封禁~" />
-                <!-- <local:MyHint Margin="0,8,0,2" IsWarn="True" Text="各位玩家，OFS外服预计将于2025/01/21 01:00对全服进行停机维护&#xA;在此期间您将会遇到无法进入服务器的问题，请您耐心等待维护结束！" />
-                <local:MyHint Margin="0,8,0,2" IsWarn="True" Text="预计维护时长：30min-60min&#xA;维护类型：优化/升级&#xA;维护原因：计划内维护&#xA;当前状态：已结束&#xA;补偿CDK：无" /> -->
+                <!--  -->
+                <local:MyHint Margin="0,8,0,2" IsWarn="True" Text="各位玩家，OFS外服因 物理机网络升级25Gbps 预计将于 2025/01/21 19:00 进行全服维护&#xA;预计维护时长为 30min ,届时您将无法进入服务器，请您耐心等待维护结束！" />
+                <local:MyHint Margin="0,8,0,2" IsWarn="True" Text="维护开始时间：2025/01/21 19:00&#xA;预计维护时长：30min&#xA;维护类型：优化/升级&#xA;维护原因：计划内维护&#xA;当前状态：未结束&#xA;补偿CDK：无" />
                 <local:MyHint Margin="0,8,0,2" IsWarn="False" Text="流岚庄末地小黑塔现已加入民间地标大礼包！&#xA;还在为格斗等级升不上去而发愁吗？还在对着铁傀儡苦练剑术吗？还在举着斧头猛猛砍僵尸吗？&#xA;/res tp xht，珍珠不会喷一身的小黑塔在等着你到来!&#xA;快报快报，这里可以投稿啦！&#xA;QQ私信服主即可投稿~" />
 	</StackPanel>
 </local:MyCard>
