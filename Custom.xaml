@@ -1,7 +1,7 @@
 <local:MyCard Title="OFS-公告板" Margin="0,0,0,15" CanSwap="True" IsSwaped="False"><!-- Copyright 2022-2024 Orient Fishing Server -->
 	<StackPanel Margin="25,40,23,15">
 		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="温馨提示：在服务器内，请您将自己的基地进行圈地以避免他人偷盗物资/恶意破坏&#xA;请勿使用小号进入服务器破坏游戏平衡，被发现将处以封禁~" />
-                <!--  -->
+                <!--
                 <local:MyHint Margin="0,8,0,2" IsWarn="True" Text="各位玩家，OFS外服因 物理机网络升级25Gbps&#xA;将于 2025/01/21 19:00 进行全服维护，预计维护时长为 30min&#xA;届时您将无法进入服务器，请您耐心等待维护结束！" />
                 <local:MyHint Margin="0,8,0,2" IsWarn="True" Text="维护开始时间：2025/01/21 19:00&#xA;预计维护时长：30min&#xA;维护类型：优化/升级&#xA;维护原因：计划内维护&#xA;当前状态：未结束&#xA;补偿CDK：无" />-->
                 <local:MyHint Margin="0,8,0,2" IsWarn="False" Text="OFS-Team 全体成员祝各位玩家小年快乐!&#xA;小年专属CDK：HappyLittleNewYear2025&#xA;生效时间：2025/01/22 13:00&#xA;失效时间：2025/01/23 23:59" />
