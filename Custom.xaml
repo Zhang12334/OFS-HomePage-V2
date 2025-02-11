@@ -16,7 +16,7 @@
                 <local:MyHint Margin="0,8,0,2" IsWarn="False" Text="快报快报，这里可以投稿啦！&#xA;上到公共地标完工，下到服内大小趣事均可投稿！&#xA;QQ私信服主投稿内容即可哦~" />
 	</StackPanel>
 </local:MyCard>
-<local:MyCard Title="OFS-快捷启动" Margin="0,0,0,15" CanSwap="False">
+<local:MyCard Title="OFS | 快捷启动" Margin="0,0,0,15" CanSwap="False">
 	<StackPanel Margin="25,40,23,15">
 	    <local:MyListItem Margin="-5,2,-5,8" Logo="pack://application:,,,/images/Blocks/GrassPath.png" Title="启动 OFS整合包" Info="点击启动游戏" EventType="启动游戏" EventData="OFS-ModPack-Client" Type="Clickable" />
 		<local:MyListItem Margin="-5,2,-5,8" Logo="pack://application:,,,/images/Blocks/RedstoneLampOn.png" Title="打开 Minecraft Wiki" Info="点击打开" EventType="打开网页" EventData="https://zh.minecraft.wiki/" Type="Clickable" />
@@ -24,9 +24,9 @@
 		<local:MyListItem Margin="-5,2,-5,8" Logo="https://docs.gtimg.com/docs-design-resources/document-management/tencent-docs/favicon/application-vnd.tdocs-apps.doc.png" Title="打开帮助文档" Info="点击打开 OFS 帮助文档" EventType="打开网页" EventData="https://docs.ofs.moe" Type="Clickable" />		
 	</StackPanel>
 </local:MyCard>
-<local:MyCard Title="OFS-长期公告" Margin="0,0,0,15" CanSwap="True" IsSwaped="False"><!-- Copyright 2022-2024 Orient Fishing Server -->
+<local:MyCard Title="OFS | 长期公告" Margin="0,0,0,15" CanSwap="True" IsSwaped="False"><!-- Copyright 2022-2024 Orient Fishing Server -->
 	<StackPanel Margin="25,40,23,15">
-		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="为保证服务器稳定，我们将在每周三凌晨 3:00 定时重启网络，因此您可能会因DNS解析不及时而出现“无法连接至服务器”问题，更换阿里DNS即可解决此问题！" />
+		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="为保证服务器稳定，我们将在每周三凌晨 4:00 定时重启网络，因此您可能会因DNS解析不及时而出现“无法连接至服务器”问题，更换阿里DNS即可解决此问题！" />
 		<local:MyListItem Margin="-5,2,-5,8" Logo="https://alidns.com/assets/favicon-29bc214a.png" Title="一键直达更换教程" Info="点击打开更换阿里DNS官方教程" EventType="打开网页" EventData="https://alidns.com/knowledge?type=SETTING_DOCS#user_windows" Type="Clickable" />
 	</StackPanel>
 </local:MyCard>
