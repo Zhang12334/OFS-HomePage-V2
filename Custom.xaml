@@ -7,7 +7,7 @@
                 <local:MyHint Margin="0,8,0,2" IsWarn="True" Text="维护开始时间：2025/02/11 13:40&#xA;预计维护时长：60 - 120min&#xA;维护类型：优化/升级&#xA;维护原因：计划内维护&#xA;当前状态：进行中&#xA;补偿CDK：无" />
                 -->
                 <local:MyHint Margin="0,8,0,2" IsWarn="False" Text="服务器抖音宣传账号千粉CDK: TikTok1000Fans&#xA;奖励内容: 100000 Orients&#xA;生效时间：2025/02/11 18:00&#xA;失效时间：2025/02/13 23:59" />
-                <local:MyListItem Margin="-5,2,-5,8" Logo="http://114.96.86.89:65000/OFS-HomePage-V2/edge.png" Title="CDK 兑换教程" Info="点击打开 CDK 兑换教程" EventType="打开网页" EventData="https://docs.ofs.moe/%E5%8A%9F%E8%83%BD%E5%B8%AE%E5%8A%A9#CDK%E5%85%91%E6%8D%A2" Type="Clickable" />		
+                <local:MyListItem Margin="-5,2,-5,8" Logo="http://114.96.86.89:65000/OFS-HomePage-V2/edge.png" Title="CDK 兑换教程" Info="点击打开 CDK 兑换教程" EventType="打开网页" EventData="https://docs.ofs.moe/%E5%8A%9F%E8%83%BD%E5%B8%AE%E5%8A%A9#cdk%E5%85%91%E6%8D%A2" Type="Clickable" />		
 	</StackPanel>
 </local:MyCard>
 <local:MyCard Title="OFS | 服内新闻" Margin="0,0,0,15" CanSwap="True" IsSwaped="False"><!-- Copyright 2022-2024 Orient Fishing Server -->
