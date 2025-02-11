@@ -1,4 +1,4 @@
-<local:MyCard Title="OFS-公告板" Margin="0,0,0,15" CanSwap="True" IsSwaped="False"><!-- Copyright 2022-2024 Orient Fishing Server -->
+<local:MyCard Title="OFS | 官方公告" Margin="0,0,0,15" CanSwap="True" IsSwaped="False"><!-- Copyright 2022-2024 Orient Fishing Server -->
 	<StackPanel Margin="25,40,23,15">
 		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="温馨提示：在服务器内，请您将自己的基地进行圈地以避免他人偷盗物资/恶意破坏&#xA;请勿使用小号进入服务器破坏游戏平衡，被发现将处以封禁~" />
                 <!--
@@ -8,7 +8,12 @@
                 -->
                 <local:MyHint Margin="0,8,0,2" IsWarn="False" Text="服务器抖音宣传账号千粉CDK: TikTok1000Fans&#xA;奖励内容: 100000 Orients&#xA;生效时间：2025/02/11 18:00&#xA;失效时间：2025/02/13 23:59" />
                 <local:MyListItem Margin="-5,2,-5,8" Logo="http://114.96.86.89:65000/OFS-HomePage-V2/edge.png" Title="CDK 兑换教程" Info="点击打开 CDK 兑换教程" EventType="打开网页" EventData="https://docs.ofs.moe/%E5%8A%9F%E8%83%BD%E5%B8%AE%E5%8A%A9#CDK%E5%85%91%E6%8D%A2" Type="Clickable" />		
+	</StackPanel>
+</local:MyCard>
+<local:MyCard Title="OFS | 服内新闻" Margin="0,0,0,15" CanSwap="True" IsSwaped="False"><!-- Copyright 2022-2024 Orient Fishing Server -->
+	<StackPanel Margin="25,40,23,15">	
                 <local:MyHint Margin="0,8,0,2" IsWarn="False" Text="流岚庄末地小黑塔现已加入民间地标大礼包！&#xA;还在为格斗等级升不上去而发愁吗？还在对着铁傀儡苦练剑术吗？还在举着斧头猛猛砍僵尸吗？&#xA;/res tp xht，珍珠不会喷一身的小黑塔在等着你到来!&#xA;快报快报，这里可以投稿啦！&#xA;QQ私信服主即可投稿~" />
+                <local:MyHint Margin="0,8,0,2" IsWarn="False" Text="快报快报，这里可以投稿啦！&#xA;上到公共地标完工，下到服内大小趣事均可投稿！&#xA;QQ私信服主投稿内容即可哦~" />
 	</StackPanel>
 </local:MyCard>
 <local:MyCard Title="OFS-快捷启动" Margin="0,0,0,15" CanSwap="False">
