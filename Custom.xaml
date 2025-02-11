@@ -6,7 +6,7 @@
                 <local:MyHint Margin="0,8,0,2" IsWarn="True" Text="各位玩家，OFS全服因 物理机网络升级25Gbps&#xA;将进行全服停机维护，预计维护时长为 60 - 120min&#xA;届时您将无法进入服务器，请您耐心等待维护结束！" />
                 <local:MyHint Margin="0,8,0,2" IsWarn="True" Text="维护开始时间：2025/02/11 13:40&#xA;预计维护时长：60 - 120min&#xA;维护类型：优化/升级&#xA;维护原因：计划内维护&#xA;当前状态：进行中&#xA;补偿CDK：无" />
                 -->
-                <local:MyHint Margin="0,8,0,2" IsWarn="False" Text="服务器抖音宣传账号千粉CDK：TikTok1000Fans&#xA;奖励内容: 100000 Orients&#xA;生效时间：2025/02/11 18:00&#xA;失效时间：2025/02/13 23:59" />
+                <local:MyHint Margin="0,8,0,2" IsWarn="False" Text="服务器抖音宣传账号千粉CDK: TikTok1000Fans&#xA;奖励内容: 100000 Orients&#xA;生效时间：2025/02/11 18:00&#xA;失效时间：2025/02/13 23:59" />
                 <local:MyListItem Margin="-5,2,-5,8" Logo="http://114.96.86.89:65000/OFS-HomePage-V2/edge.png" Title="CDK 兑换教程" Info="点击打开 CDK 兑换教程" EventType="打开网页" EventData="https://docs.ofs.moe/%E5%8A%9F%E8%83%BD%E5%B8%AE%E5%8A%A9#CDK%E5%85%91%E6%8D%A2" Type="Clickable" />		
                 <local:MyHint Margin="0,8,0,2" IsWarn="False" Text="流岚庄末地小黑塔现已加入民间地标大礼包！&#xA;还在为格斗等级升不上去而发愁吗？还在对着铁傀儡苦练剑术吗？还在举着斧头猛猛砍僵尸吗？&#xA;/res tp xht，珍珠不会喷一身的小黑塔在等着你到来!&#xA;快报快报，这里可以投稿啦！&#xA;QQ私信服主即可投稿~" />
 	</StackPanel>
