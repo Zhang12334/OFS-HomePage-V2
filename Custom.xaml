@@ -3,12 +3,6 @@
 	<StackPanel Margin="25,40,23,15">
 		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="温馨提示：在服务器内，请您将自己的基地进行圈地以避免他人偷盗物资/恶意破坏&#xA;请勿使用小号进入服务器破坏游戏平衡，被发现将处以封禁~" />
                 <local:MyHint Margin="0,8,0,2" IsWarn="True" Text="近期服内出现多起恶意偷盗事件，请各位玩家上线检查自己的物品是否被盗&#xA;使用 /co i 指令切换到检查模式，左键单击可检查方块放置/移除信息，右键单击可查看容器物品变动信息&#xA;如有发现偷盗行为请联系管理组成员！" />
-                <!--
-                <local:MyHint Margin="0,8,0,2" IsWarn="False" Text="OFS | 新春探宝会-活动说明&#xA;爆竹声中辞旧岁，瑞雪纷飞迎丰年；在这辞旧迎新之际，我们在年味十足的年丰阁活动区服中精心筹备了一场的沉浸式解谜盛宴！&#xA;我们将新春礼包暗藏在年丰阁各处，破解谜题密码、解读隐藏暗语、追踪神秘的路线......快来开启属于你们的吉祥寻宝之旅吧！&#xA;活动奖励：66666 Orients * 2 + 巳巳如意活动称号&#xA;活动时间：即日起至2025/02/07 23:59:59&#xA;解谜线索：进入年丰阁后，回头即可看到" />
-                <local:MyHint Margin="0,8,0,2" IsWarn="True" Text="各位玩家，OFS全服因 物理机网络升级25Gbps&#xA;将进行全服停机维护，预计维护时长为 60 - 120min&#xA;届时您将无法进入服务器，请您耐心等待维护结束！" />
-                <local:MyHint Margin="0,8,0,2" IsWarn="True" Text="维护开始时间：2025/02/11 13:40&#xA;预计维护时长：60 - 120min&#xA;维护类型：优化/升级&#xA;维护原因：计划内维护&#xA;当前状态：进行中&#xA;补偿CDK：无" />
-                -->
-                <local:MyHint Margin="0,8,0,2" IsWarn="False" Text="服务器抖音宣传账号千粉CDK: TikTok1000Fans&#xA;奖励内容: 100000 Orients&#xA;失效时间：2025/02/13 23:59" />
                 <local:MyListItem Margin="-5,2,-5,8" Logo="http://114.96.86.89:65000/OFS-HomePage-V2/edge.png" Title="CDK 兑换教程" Info="点击打开 CDK 兑换教程" EventType="打开网页" EventData="https://docs.ofs.moe/%E5%8A%9F%E8%83%BD%E5%B8%AE%E5%8A%A9#cdk%E5%85%91%E6%8D%A2" Type="Clickable" />		
 	</StackPanel>
 </local:MyCard>
